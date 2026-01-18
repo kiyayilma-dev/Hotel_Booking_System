@@ -1,3 +1,47 @@
+/*
+===============================================================================
+Project : Hotel Booking System
+Repo    : Hotel_Booking_System
+Purpose : Hotel Room Reservation System (C++)
+Author  : Group Project — Section C, Group 10 (5 members)
+Date    : [2026-01-18]
+===============================================================================
+
+Description:
+This program implements a straightforward Hotel Room Reservation System where
+guests can book rooms from three categories (Ocean View Suite, Poolside Villa,
+Garden View Room). The system tracks room availability, stores guest details,
+prevents double-booking, lists current reservations, and allows searching for
+guests by name.
+
+Core Features:
+ - Menu-driven room selection (3 categories).
+ - Input validation for room type and room number.
+ - Stores guest data: name, gender, age, reservation code.
+ - Prevents assigning an occupied room to a new guest.
+ - Displays all reserved rooms (for staff review).
+ - Search function to find a guest and show their reservation code.
+
+Team Members    :      id                 — Responsibilities
+ - LAKIN AWEL          ETS0876/17        — Constants & Global Variables
+ - KIDIST  TESFAYE     ETS0837/17        — Booking Logic
+ - KOKET DESALEGN      ETS0872/17        — Display Reserved Rooms
+ - KIYA YILMA          ETS0869/17        — Guest Search & Integration
+ - LEULSEGED DEGU      ETS0896/17        — Booking Logic Integration & Testing
+Guidelines:
+ - Keep logic unchanged unless team agrees.
+ - If you modify this header, update the Date and Authors section.
+ - Compile with: g++ hotel_booking.cpp -o hotel && ./hotel
+
+Usage :
+ 1. Compile the program.
+ 2. Run executable and follow on-screen prompts to book rooms.
+ 3. After booking, view the list of reserved rooms and search by name.
+
+===============================================================================
+*/
+
+
 #include <iostream>
 #include <iomanip>
 #include <limits>
