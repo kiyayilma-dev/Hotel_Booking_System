@@ -27,8 +27,17 @@ int main()
     // ===== SECTION C: BOOKING LOGIC =====
     // Kidist will work here
 
-    // ===== SECTION D: DISPLAY RESERVED ROOMS =====
-    // Koket will work here
+    cout << "Current Reserved Room Status:" << endl;
+
+for (int i = 0; i < rooms; ++i)
+{
+    if (roomStatus[i] == 1)
+    {
+        cout << "Room " << i + 1
+             << " is booked by " << guestNames[i] << endl;
+    }
+}
+
 
     // ===== SECTION E: SEARCH GUEST =====
     // Kiya will work here
