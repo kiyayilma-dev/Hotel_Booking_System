@@ -49,7 +49,9 @@ Usage :
 using namespace std;
 
 // ===== SECTION A: CONSTANTS & GLOBAL ARRAYS =====
+//lakin will work here
 
+    // Koket will work here
 const int rooms = 150;
 const int roomCategory = 10;
 const int oceanStart = 1;
@@ -67,14 +69,6 @@ int main()
 {
     // ===== SECTION B: WELCOME MESSAGE =====
     // (kept for structure clarity)
-
-    // ===== SECTION C: BOOKING LOGIC =====
-    // Kidist will work here
-    int roomStatus[rooms] = {};
-    string guestNames[rooms];
-    string guestGender[rooms];
-    int guestAge[rooms];
-    string reservationCodes[rooms];
     cout << "===============================================================================" << endl;
     cout << "              Welcome to AASTU's Hotel Room Reservation System" << endl;
     cout << "===============================================================================" << endl;
