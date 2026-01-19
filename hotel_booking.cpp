@@ -24,7 +24,7 @@ tabular data display.
 
 Core Features:
  - Interactive Main Menu: Continuous operation without restarting the program.
- - Full Reservation Management:
+ - Full Reservation Management:  
    1. Book New Room (Create)
    2. View All Reservations (Read - Formatted Table)
    3. Update Guest Details (Update)
