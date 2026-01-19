@@ -13,7 +13,6 @@ Team Members    :      id                 — Responsibilities
 
  
 Date    : 2026-01-19
-===============================================================================
 
 Description:
 This program implements a robust, menu-driven Hotel Management System designed 
@@ -46,13 +45,13 @@ Usage :
  3. Follow prompts to manage reservations.
  4. Use the 'Show All' feature to generate a status report for screenshots.
 */
-
 #include <iostream>
 #include <iomanip>
 #include <limits>
 #include <string>
 
 using namespace std;
+
 
 // ===== CONSTANTS & GLOBAL ARRAYS =====
 const int rooms = 150;
